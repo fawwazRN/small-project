@@ -11,7 +11,7 @@ import Pengajar from "./components/Pengajar";
 import Benefit from "./components/Benefit";
 import Penutup from "./components/Penutup";
 import Footer from "./components/Footer";
-import ChatbotKita from "./components/Chatbotkita";
+import ChatbotKita from "./components/ChatbotKita";
 
 export default function App() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
