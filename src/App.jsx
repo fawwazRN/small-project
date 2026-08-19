@@ -38,7 +38,6 @@ export default function App() {
         <Benefit />
         <Penutup />
         <Footer />
-        <ChatbotKita />
         {/* Nanti VisiMisi dan section lain ditaruh di sini */}
       </motion.div>
 
