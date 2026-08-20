@@ -140,12 +140,17 @@ export default function ChatbotAI() {
                   )}
 
                   <div
-                    className={`p-3 rounded-2xl max-w-[75%] whitespace-pre-line text-sm ${
+                    className={`p-3 rounded-2xl max-w-[75%] text-sm ${
                       msg.role === "user"
-                        ? "bg-[#83C41F] text-white rounded-br-none font-medium"
-                        : "bg-white text-slate-800 shadow-sm border border-slate-100 rounded-bl-none"
+                        ? "bg-[#83C41F] text-white rounded-br-none font-medium whitespace-pre-line"
+                        : "bg-white text-slate-800 shadow-sm border border-slate-100 rounded-bl-none [&_h1]:text-lg [&_h1]:font-extrabold [&_h1]:mb-2 [&_h2]:text-base [&_h2]:font-bold [&_h2]:mt-2 [&_h2]:mb-1 [&_p]:mb-2 [&_p]:leading-relaxed [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:mb-2 [&_li]:mb-1 [&_strong]:text-[#0B2B89] [&_strong]:font-bold"
                     }`}>
-                    {msg.text}
+                    {/* Jika AI mengirim HTML, render sebagai HTML. Jika user, render teks biasa */}
+                    {msg.role === "ai" ? (
+                      <div dangerouslySetInnerHTML={{ __html: msg.text }} />
+                    ) : (
+                      msg.text
+                    )}
                   </div>
 
                   {msg.role === "user" && (

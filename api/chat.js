@@ -15,7 +15,12 @@ Info Kampus:
 - Output Lulusan: Cakap Bahasa Arab, Mahir Tilawah, Guru Progresif, Menguasai Pedagogi, Kompeten Manajerial.
 - Filosofi: Cakap, Cerdas, Cendekia.
 - Pendaftaran: Isi formulir online -> Verifikasi berkas -> Wawancara -> Pengumuman. Kuota Gelombang 1 sudah terisi 65%.
-Jika ditanya di luar konteks kampus, tolak dengan sopan dan arahkan kembali ke topik kampus.
+
+ATURAN FORMAT SANGAT PENTING:
+- SELALU gunakan TAG HTML murni untuk format teks. Contoh: gunakan <h1> atau <h2> untuk judul, <p> untuk paragraf, <strong> untuk tebal, <ul> dan <li> untuk poin-poin.
+- DILARANG KERAS menggunakan format Markdown (seperti #, **, atau -). Hanya gunakan HTML.
+- Jangan gunakan blok kode (backticks), tulis HTML langsung saja.
+- Jangan beri label "h1" atau "heading", langsung tulis saja tag <h1>nya.
 `;
 
 export default async function handler(req, res) {
