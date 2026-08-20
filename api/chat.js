@@ -1,12 +1,9 @@
 import { Groq } from "groq-sdk";
 
-// Inisialisasi Groq.
-// Vercel akan otomatis membaca env dari dashboard Vercel nantinya.
 const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,
 });
 
-// Konteks rahasia tentang kampus kamu
 const systemPrompt = `
 Kamu adalah Abudzar AI, asisten virtual resmi dari Kuliah Islam & Takhasus Abudzar (KITA).
 Jawab pertanyaan calon mahasiswa dengan ramah, sopan, dan informatif.
@@ -22,7 +19,6 @@ Jika ditanya di luar konteks kampus, tolak dengan sopan dan arahkan kembali ke t
 `;
 
 export default async function handler(req, res) {
-  // Hanya terima metode POST
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method Not Allowed" });
   }
@@ -30,10 +26,12 @@ export default async function handler(req, res) {
   try {
     const { messages } = req.body;
 
+    // GANTI MODEL DI SINI: dari "llama3-8b-8192" menjadi "llama-3.1-8b-instant"
     const completion = await groq.chat.completions.create({
-      model: "llama3-8b-8192", // Model cepat & gratis di Groq
+      model: "llama-3.1-8b-instant",
       messages: [{ role: "system", content: systemPrompt }, ...messages],
       temperature: 0.7,
+      max_tokens: 1024, // Batasi token agar tidak terlalu lama
     });
 
     const aiResponse =
@@ -42,7 +40,13 @@ export default async function handler(req, res) {
 
     res.status(200).json({ reply: aiResponse });
   } catch (error) {
-    console.error("Error Groq:", error);
-    res.status(500).json({ error: "Terjadi kesalahan pada server AI." });
+    // Kita buat error log lebih detail
+    console.error("Error Groq Detail:", error?.error || error.message);
+
+    // Kirim pesan error spesifik ke frontend
+    res.status(500).json({
+      error: "Groq API Error",
+      detail: error?.error?.message || error.message,
+    });
   }
 }
