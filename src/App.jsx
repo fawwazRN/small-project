@@ -17,7 +17,7 @@ export default function App() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   return (
-    <>
+    <div>
       {/* 1. Layar Loading & Deteksi Offline (Muncul paling atas) */}
       <LoadingScreen />
 
@@ -47,6 +47,6 @@ export default function App() {
         isOpen={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}
       />
-    </>
+    </div>
   );
 }

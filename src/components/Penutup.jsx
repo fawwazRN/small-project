@@ -10,7 +10,9 @@ import {
 
 export default function Penutup({ onOpenDrawer }) {
   return (
-    <section className="relative bg-[#0B2B89] px-6 md:px-12 py-32 md:py-40 overflow-hidden text-white">
+    <section
+      className="relative bg-[#0B2B89] px-6 md:px-12 py-32 md:py-40 overflow-hidden text-white"
+      id="penutup">
       {/* === Dekorasi Background Sinematik === */}
       {/* Pola Titik Halus */}
       <div
