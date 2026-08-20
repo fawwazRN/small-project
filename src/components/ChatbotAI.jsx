@@ -46,3 +46,5 @@ const handleSend = async (e) => {
     setIsTyping(false);
   }
 };
+
+export default ChatbotAI;
