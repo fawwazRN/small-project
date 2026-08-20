@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     // GANTI MODEL DI SINI: dari "llama3-8b-8192" menjadi "llama-3.1-8b-instant"
     const completion = await groq.chat.completions.create({
-      model: "llama3-8b-8192",
+      model: "openai/gpt-oss-20b",
       messages: [{ role: "system", content: systemPrompt }, ...messages],
       temperature: 0.7,
       max_tokens: 1024, // Batasi token agar tidak terlalu lama
