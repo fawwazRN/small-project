@@ -11,7 +11,7 @@ import Pengajar from "./components/Pengajar";
 import Benefit from "./components/Benefit";
 import Penutup from "./components/Penutup";
 import Footer from "./components/Footer";
-import ChatbotKita from "./components/ChatbotKita";
+import ChatbotAI from "./components/ChatbotAI";
 
 export default function App() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -38,6 +38,7 @@ export default function App() {
         <Benefit />
         <Penutup />
         <Footer />
+        <ChatbotAI />
         {/* Nanti VisiMisi dan section lain ditaruh di sini */}
       </motion.div>
 
