@@ -29,6 +29,15 @@ Misi Utama:
 4. Karakter Rabbani: Berwawasan global dengan karakter Islam Rabbani yang kuat dan berakhlak mulia.
 5. Tri Dharma & Kerjasama: Mengimplementasikan Tridharma Perguruan Tinggi dan menjalin kerja sama strategis.
 
+Perjalanan Mahasiswa (Timeline Perkuliahan):
+- Tahap Awal: Pendaftaran & Seleksi (Isi formulir, verifikasi berkas, wawancara).
+- Semester 1–2: Fondasi Keislaman & Bahasa Arab (Aqidah, fiqih, bahasa Arab aktif).
+- Semester 3–4: Pendalaman Tafsir & Pedagogi Dasar (Ilmu tafsir, ushul fiqih, pengantar pendidikan).
+- Semester 5–6: Praktik Mengajar & Kurikulum (Microteaching, RPP, pedagogi praktik).
+- Semester 7: Magang / PPL di Lembaga Mitra (Praktik mengajar langsung).
+- Semester 8: Penyusunan Skripsi (Riset dan bimbingan tugas akhir).
+- Kelulusan: Wisuda & Gelar S.Pd (Siap menjadi pendidik Islam Rabbani).
+
 Output Lulusan (Siap Rekrut):
 1. Cakap Berbahasa Arab (Lisan dan tulisan secara aktif dan komunikatif).
 2. Mahir Tilawah (Membaca & memiliki hafalan Al-Qur'an).
@@ -40,6 +49,13 @@ Keunggulan Kampus:
 - Biaya Sangat Terjangkau: Investasi pendidikan terbaik dengan kisaran biaya hanya ± 15 juta hingga selesai.
 - Penempatan Kerja: Jaminan arah karier bagi lulusan yang memiliki kualifikasi dan kompetensi terbaik.
 - Dosen Berkualitas: Tenaga pengajar lulusan universitas timur tengah dan dalam negeri ternama.
+
+Rincian Biaya & Kalkulator (PENTING):
+- Total biaya kuliah sampai lulus: ± Rp 15.000.000.
+- Uang Pangkal: Rp 3.000.000 (dibayar sekali di semester 1).
+- SPP per Semester: Rp 1.500.000 (selama 8 semester).
+- Metode Pembayaran: Bisa bayar per semester atau dicicil per bulan selama 6 bulan dalam satu semester tanpa biaya tambahan.
+- Beasiswa: Tersedia program keringanan biaya untuk calon mahasiswa dengan kondisi ekonomi tertentu dan penghafal Al-Qur'an.
 
 Dosen (The Educators):
 Dosen KITA berasal dari lulusan berbagai institusi ternama. Berikut adalah nama-nama dosen resmi di KITA:
@@ -56,16 +72,20 @@ Dosen KITA berasal dari lulusan berbagai institusi ternama. Berikut adalah nama-
 5. Dari Universitas Negeri (Indonesia):
    - Prof. Dr. Bambang Sutrisno (Pakar Psikologi Pendidikan, Lulusan S3 Univ. Negeri)
 
+Pendaftaran & Syarat Masuk:
+- Kuota Gelombang 1 saat ini sudah terisi 65%.
+- Alur: Isi formulir online -> Verifikasi berkas (1x24 jam) -> Wawancara & tes potensi -> Pengumuman.
+- Syarat: Lulusan SMA/SMK/MA/sederajat atau pondok pesantren.
+- Berkas: Ijazah/SKL, KTP, KK, dan pas foto.
+- Kemampuan Al-Qur'an: Minimal bisa membaca Al-Qur'an dengan baik. Jika belum lancar, akan ada program tahsin pendampingan di semester awal.
+- Tes Masuk: Tes potensi akademik dasar dan wawancara seputar motivasi dan wawasan keislaman.
+
 Kontak & Media Sosial Resmi:
 - Telepon: 0822 - 1706 - 6090
 - Instagram: @kuliahabudzar
 - YouTube: Media Abu Dzar
 - Email: kita@abudzar.or.id
 - Alamat Kampus: Jl. Sumatera Gg. H. Bakri, Kampung Rawa Lele, Jombang, Ciputat, Tangerang Selatan 15414
-
-Pendaftaran:
-- Gelombang 1 sudah terisi 65%.
-- Alur: Isi formulir online -> Verifikasi berkas -> Wawancara -> Pengumuman.
 
 === AKHIR DATA ===
 
