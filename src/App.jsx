@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import LoadingScreen from "./components/LoadingScreen"; // Import Loading
+import LoadingScreen from "./components/LoadingScreen";
+import CustomCursor from "./components/CustomCursor";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Penjelasan from "./components/Penjelasan";
@@ -8,7 +9,10 @@ import Pendaftaran from "./components/Pendaftaran";
 import VisiMisi from "./components/VisiMisi";
 import Output from "./components/Output";
 import Pengajar from "./components/Pengajar";
+import PerjalananMahasiswa from "./components/PerjalananMahasiswa"; // <-- baru
 import Benefit from "./components/Benefit";
+import KalkulatorBiaya from "./components/KalkulatorBiaya"; // <-- baru
+import FAQ from "./components/FAQ"; // <-- baru
 import Penutup from "./components/Penutup";
 import Footer from "./components/Footer";
 import ChatbotAI from "./components/ChatbotAI";
@@ -18,10 +22,9 @@ export default function App() {
 
   return (
     <div>
-      {/* 1. Layar Loading & Deteksi Offline (Muncul paling atas) */}
+      <CustomCursor />
       <LoadingScreen />
 
-      {/* 2. Wrapper Utama yang mengecil */}
       <motion.div
         animate={{
           scale: isDrawerOpen ? 0.95 : 1,
@@ -35,14 +38,15 @@ export default function App() {
         <VisiMisi />
         <Output />
         <Pengajar />
+        <PerjalananMahasiswa />
         <Benefit />
-        <Penutup />
+        <KalkulatorBiaya />
+        <FAQ />
+        <Penutup onOpenDrawer={() => setIsDrawerOpen(true)} />
         <Footer />
         <ChatbotAI />
-        {/* Nanti VisiMisi dan section lain ditaruh di sini */}
       </motion.div>
 
-      {/* 3. Sidebar Pendaftaran */}
       <Pendaftaran
         isOpen={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}
